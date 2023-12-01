@@ -22,5 +22,8 @@ authors = [
     "Sam Mangham <mangham@gmail.com>"
 ]
 
-#[tool.poetry.dependencies]
-#numpy = "1.20.0"
+[tool.poetry.dependencies]
+numpy = "1.20.0"
+
+[tool.poetry.extras]
+dev = "pandas"
