@@ -1,0 +1,15 @@
+[project]
+name = "test"
+description = "Test for requirements"
+version = "0.1.0"
+authors = [
+    { name = "Sam Mangham", email = "mangham@gmail.com" }
+]
+dependencies = [
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pandas"
+]
