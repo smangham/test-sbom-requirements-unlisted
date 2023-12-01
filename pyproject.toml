@@ -6,10 +6,10 @@ authors = [
     { name = "Sam Mangham", email = "mangham@gmail.com" }
 ]
 dependencies = [
-    numpy="^1.20.0"
+    numpy = "^1.20.0",
 ]
 
 [project.optional-dependencies]
 dev = [
-    "pandas"
+    "pandas",
 ]
